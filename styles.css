@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_div{
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px
+}
+
+img{
+    max-width: 30%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+    padding : 40px;
+}
+
+.section_title{
+    font-family: "Big Shoulders Display", cursive;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.75em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.section_text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.80em;
+    line-height: 1.75em;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 26px;
+}
+
+.learn_more{
+    background-color: #f2f2f2;
+    padding : 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    text-align: center;
+    border: transparent 3px solid;
+}
+
+.learn_more:hover{
+    border: #f2f2f2 3px solid;
+    cursor: pointer;
+}
+
+#sedans_section{
+    background-color: #E28525;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sedans_button{
+    color: #E28525;
+}
+
+#sedans_button:hover{
+    color: #f2f2f2;
+    background-color: #E28525;
+}
+
+#suvs_section{
+    background-color: #016972;
+}
+
+#suvs_button{
+    color: #016972;
+}
+
+#suvs_button:hover{
+    color: #f2f2f2;
+    background-color: #016972;
+}
+
+#luxury_section{
+    background-color: #00403F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#luxury_button{
+    color: #00403F;
+}
+
+#luxury_button:hover{
+    color: #f2f2f2;
+    background-color: #00403F;
+}
+
+*{
+    border: red 0px solid;
+}
+
+/* Smaller screens */
+
+@media screen and (max-width: 480px) {
+    body{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .main_div {
+        flex-direction: column;
+        max-width: 70%;
+        height: fit-content;
+    }
+
+    #sedans_section{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #luxury_section{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
