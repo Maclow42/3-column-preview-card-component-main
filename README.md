@@ -6,11 +6,11 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 
-Desktop version :
-![](./screenshot_desktop.jpg)
+Desktop version preview :
+![Desktop version preview](https://github.com/Maclow42/3-column-preview-card-component-main/blob/main/screshoot_desktop.png)
 
-Smartphone version :
-![](./screenshot_smartphone.jpg)
+Smartphone version preview :
+![Smartphone version preview](https://github.com/Maclow42/3-column-preview-card-component-main/blob/main/screshoot_smartphone.png)
 
 ### Links
 
